@@ -18,6 +18,7 @@ class TopicObserver
     {
         //
     }
+<<<<<<< HEAD
 
     public function saving(Topic $topic)
     {
@@ -26,3 +27,6 @@ class TopicObserver
         $topic->excerpt = make_excerpt($topic->body);
     }
 }
+=======
+}
+>>>>>>> c82c335ce322802437713ec9d3d2f1e421fc51f3

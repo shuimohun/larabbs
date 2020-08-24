@@ -4,9 +4,13 @@ namespace App\Models;
 
 class Topic extends Model
 {
+<<<<<<< HEAD
     protected $fillable = [
         'title', 'body', 'category_id', 'excerpt', 'slug'
     ];
+=======
+    protected $fillable = ['title', 'body', 'user_id', 'category_id', 'reply_count', 'view_count', 'last_reply_user_id', 'order', 'excerpt', 'slug'];
+>>>>>>> c82c335ce322802437713ec9d3d2f1e421fc51f3
 
     public function category()
     {

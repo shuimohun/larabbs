@@ -16,7 +16,10 @@
         "laravel/framework": "^7.24",
         "laravel/tinker": "^2.0",
         "mews/captcha": "~3.0",
+<<<<<<< HEAD
         "mews/purifier": "~3.0",
+=======
+>>>>>>> c82c335ce322802437713ec9d3d2f1e421fc51f3
         "overtrue/laravel-lang": "~3.0",
         "summerblue/laravel-active": "7.*"
     },

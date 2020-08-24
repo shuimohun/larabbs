@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "558cf95da898d24ce78239fb3c0350e9",
+=======
+    "content-hash": "69571592d6722666f82cb926c8b04145",
+>>>>>>> c82c335ce322802437713ec9d3d2f1e421fc51f3
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -480,6 +484,7 @@
             "time": "2020-08-08T21:28:19+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "ezyang/htmlpurifier",
             "version": "v4.13.0",
             "source": {
@@ -536,6 +541,8 @@
             "time": "2020-06-29T00:56:53+00:00"
         },
         {
+=======
+>>>>>>> c82c335ce322802437713ec9d3d2f1e421fc51f3
             "name": "fideloper/proxy",
             "version": "4.4.0",
             "source": {
@@ -1476,6 +1483,7 @@
             "time": "2020-03-21T08:52:58+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "mews/purifier",
             "version": "3.2.3",
             "source": {
@@ -1560,6 +1568,8 @@
             "time": "2020-07-10T17:14:50+00:00"
         },
         {
+=======
+>>>>>>> c82c335ce322802437713ec9d3d2f1e421fc51f3
             "name": "monolog/monolog",
             "version": "2.1.1",
             "source": {
