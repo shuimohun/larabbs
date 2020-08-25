@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 
 class UsersTableSeeder extends Seeder
 {
@@ -14,6 +15,7 @@ class UsersTableSeeder extends Seeder
         $user->name = 'Shuimohun';
         $user->email = '8733517@qq.com';
         $user->avatar = 'https://cdn.learnku.com/uploads/images/201710/14/1/ZqM7iaP4CR.png';
+        $user->password = Hash::make('admin123');
         $user->save();
     }
 }
