@@ -24,7 +24,7 @@ return array(
      * 1. 字符串 —— 子菜单的入口，不可访问；
      * 2. 模型配置文件 —— 访问 `model_config_path` 目录下的模型文件，如 `users` 访问的是 `users.php` 模型配置文件；
      * 3. 配置信息 —— 必须使用前缀 `settings.`，对应 `settings_config_path` 目录下的文件，如：默认设置下，
-     *              `settings.site` 访问的是 `administrator/settings/site.php` 文件
+     *              `settings.site` 访问的是 `administrator/settings/site.json` 文件
      * 4. 页面文件 —— 必须使用前缀 `page.`，如：`page.pages.analytics` 对应 `administrator/pages/analytics.php`
      *               或者是 `administrator/pages/analytics.blade.php` ，两种后缀名皆可
      *
@@ -46,6 +46,9 @@ return array(
             'categories',
             'topics',
             'replies',
+        ],
+        '站点管理' => [
+            'settings.site',
         ],
     ],
 
